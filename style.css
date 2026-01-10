@@ -22,22 +22,32 @@
 
 h1 {
     font-family: londrina;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 h2 {
     font-family: londrina;
-    font-size: 30px
+    font-size: 35px;
+    text-shadow: 1px 1px rgb(213, 213, 213);
 }
 
 p,
 a {
     font-family: patrick;
     font-size: 23px;
+    text-shadow: 1px 1px rgb(213, 213, 213);
+    letter-spacing: 1px;
 }
 
 #bio {
     background: #ffffff;
     padding: 20px;
     padding-bottom: 100px;
+}
+
+#gif {
+    margin: 10px;
+    border: 4px dashed black;
+    border-width: 3px;
+
 }
