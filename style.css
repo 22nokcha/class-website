@@ -91,11 +91,18 @@ body {
     margin: 30px;
 }
 
+#bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .box {
     display: inline-block;
     background: rgba(255, 255, 255, 0.85);
     padding: 30px;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 40px;
     border-radius: 25px;
     border: solid;
     backdrop-filter: blur(4px);
