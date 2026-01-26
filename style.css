@@ -107,6 +107,7 @@ body {
     border: solid;
     backdrop-filter: blur(4px);
     margin: 30px;
+    object-fit: cover;
 }
 
 #gif {
